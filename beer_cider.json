@@ -97,49 +97,49 @@
     "subtitle": "Päron, Äpple, Svart vinbär",
     "price": 20,
     "type": "Cider",
-    "category": "Cider / Alkoläsk",
+    "category": "Cider",
     "order": 2
   },
   {
     "name": "Somersby Doublepress",
     "price": 25,
     "type": "Cider",
-    "category": "Cider / Alkoläsk",
+    "category": "Cider",
     "order": 2
   },
   {
     "name": "Somersby Sparkling Rosé",
     "price": 25,
     "type": "Cider",
-    "category": "Cider / Alkoläsk",
+    "category": "Cider",
     "order": 2
   },
   {
     "name": "Vikbo",
     "price": 25,
     "type": "Cider",
-    "category": "Cider / Alkoläsk",
+    "category": "Cider",
     "order": 2
   },
   {
     "name": "Ginger Joe",
     "price": 30,
     "type": "Alkoläsk",
-    "category": "Cider / Alkoläsk",
+    "category": "Alkoläsk",
     "order": 2
   },
   {
     "name": "Smirnoff Ice",
     "price": 25,
     "type": "Alkoläsk",
-    "category": "Cider / Alkoläsk",
+    "category": "Alkoläsk",
     "order": 2
   },
   {
     "name": "Hooch",
     "price": 25,
     "type": "Alkoläsk",
-    "category": "Cider / Alkoläsk",
+    "category": "Alkoläsk",
     "order": 2
   },
   {
