@@ -74,7 +74,7 @@
     "name": "Guinness",
     "price": 25,
     "type": "Special",
-    "subtitle": "Porter & Stout",
+    "subtitle": "Stout",
     "category": "Öl",
     "order": 1
   },
@@ -86,22 +86,15 @@
     "order": 1
   },
   {
-    "name": "Stella Artois",
-    "price": 25,
-    "type": "Lager",
-    "category": "Öl",
-    "order": 1
-  },
-  {
     "name": "Somersby",
-    "subtitle": "Päron, Äpple, Svart vinbär",
+    "subtitle": "Päron, Äpple, Björnbär",
     "price": 20,
     "type": "Cider",
     "category": "Cider",
     "order": 2
   },
   {
-    "name": "Somersby Doublepress",
+    "name": "Somersby Double Press",
     "price": 25,
     "type": "Cider",
     "category": "Cider",

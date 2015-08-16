@@ -13,7 +13,6 @@
           %td Typ
           %td Sort
           %td Pris
-          %td Extra
       %tbody
         - drinks.group_by { |d| d['category'] }.each do |category, l|
           - l.group_by { |l| l['type'] }.each do |type, list|
@@ -21,9 +20,10 @@
               %tr
                 %td= drink['name']
                 %td= category
-                - if type != category
-                  %td= type
+                - x = (drink['subtitle']) ? drink['subtitle'] : type
+                - if x == category
+                  %td= "&nbsp;"
                 - else
-                  %td &nbsp;
-                %td= drink['price']
-                %td= drink['subtitle']
+                  %td= x
+                %td
+                  %strong= drink['price']

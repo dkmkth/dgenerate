@@ -24,6 +24,14 @@
     "order": 1
   },
   {
+    "name": "Whiskey Sour",
+    "subtitle": "Bourbon (4cl), Citron, Sockerlag",
+    "price": 35,
+    "type": "Drinkar",
+    "category": "Drinkar",
+    "order": 1
+  },
+  {
     "name": "Black Russian",
     "subtitle": "Vodka (2cl), Kahlúa (2cl)",
     "price": 35,
