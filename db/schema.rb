@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20151125192832) do
     t.string   "subtype"
     t.decimal  "purchase_price"
     t.integer  "price"
+    t.boolean  "active"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
   end

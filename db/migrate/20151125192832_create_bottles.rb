@@ -8,6 +8,7 @@ class CreateBottles < ActiveRecord::Migration
       t.string :subtype
       t.decimal :purchase_price
       t.integer :price
+      t.boolean :active
 
       t.timestamps null: false
     end
