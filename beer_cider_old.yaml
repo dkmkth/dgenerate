@@ -1,0 +1,310 @@
+- name: Angry Boy Brown Ale
+  category: Öl
+  type: Brown Ale
+  subtitle:
+  price: 40
+- name: Banana Bread Beer
+  category: Öl
+  type: Övrigt
+  subtitle: Fruktale
+  price: 35
+- name: BEO
+  category: Alkoholfritt
+  type: Alkoholfri Cider
+  subtitle: Blood Orange, Apple
+  price: 20
+- name: Brewdog Nanny State
+  category: Alkoholfritt
+  type: Alkoholfri Öl
+  subtitle:
+  price: 20
+- name: Brooklyn Brown Ale
+  category: Öl
+  type: Brown Ale
+  subtitle:
+  price: 25
+- name: Brooklyn East India Pale Ale
+  category: Öl
+  type: IPA
+  subtitle:
+  price: 30
+- name: Brooklyn Lager
+  category: Öl
+  type: Lager
+  subtitle:
+  price: 25
+- name: Carlsberg Export
+  category: Öl
+  type: Lager
+  subtitle:
+  price: 20
+- name: Coppersmith White IPA
+  category: Öl
+  type: IPA
+  subtitle:
+  price: 35
+- name: Coronado Idiot IPA
+  category: Öl
+  type: IPA
+  subtitle:
+  price: 40
+- name: Dugges All The Way
+  category: Öl
+  type: IPA
+  subtitle: Session IPA
+  price: 30
+- name: Fentimans
+  category: Alkoholfritt
+  type: Läsk
+  subtitle: Curiosity Cola, Ginger Beer, Victorian Lemonade, Elderflower, Dandelion & Burdock, Lemon Shandy, Rose Lemonade, Mandarin & Orange
+  price: 20
+- name: Fentimans Herbal Tonic
+  category: Alkoholfritt
+  type: Läsk
+  subtitle:
+  price: 10
+- name: Fentimans Tonic Water
+  category: Alkoholfritt
+  type: Läsk
+  subtitle: Herbal/Original
+  price: 10
+- name: Flor De Jamaica Organic Tea
+  category: Alkoholfritt
+  type: Läsk
+  subtitle:
+  price: 20
+- name: Guinness
+  category: Öl
+  type: Stout
+  subtitle:
+  price: 25
+- name: Old Rosie
+  category: Cider
+  type: Cider
+  subtitle: Cloudy Cider
+  price: 35
+- name: Wyld Wood Organic Apple
+  category: Cider
+  type: Cider
+  subtitle:
+  price: 40
+- name: Hoegaarden
+  category: Öl
+  type: Wit
+  subtitle:
+  price: 25
+- name: I love you with my Stout
+  category: Öl
+  type: Stout
+  subtitle:
+  price: 50
+- name: Klassiker Lingon
+  category: Cider
+  type: Cider
+  subtitle:
+  price: 25
+- name: Klassiker Peach
+  category: Cider
+  type: Cider
+  subtitle:
+  price: 30
+- name: Kumala Core Blends
+  category: Vin
+  type: Rött
+  subtitle: Ruby/Merlot/Pinotage Piccolo
+  price: 40
+- name: Kumala Core Blends
+  category: Vin
+  type: Vitt
+  subtitle: Colombard/Chardonnay Piccolo
+  price: 40
+- name: Läsk
+  category: Alkoholfritt
+  type: Läsk
+  subtitle:
+  price: 10
+- name: Magners
+  category: Cider
+  type: Cider
+  subtitle: Original Irish Cider/Pear/Berry
+  price: 25
+- name: Mikeller Red/White Christmas
+  category: Öl
+  type: Övrigt
+  subtitle: Amber/Wit Hybrid
+  price: 40
+- name: Mikeller Raspberry & Cream
+  category: Öl
+  type: Ale
+  subtitle: Cream Ale
+  price: 40
+- name: Mikkeller Drink'in The Sun
+  category: Alkoholfritt
+  type: Alkoholfri Öl
+  subtitle:
+  price: 20
+- name: Mikkeller Drink'in The Snow
+  category: Alkoholfritt
+  type: Alkoholfri Öl
+  subtitle:
+  price: 20
+- name: Mikkeller K:rlek
+  category: Öl
+  type: Pale Ale
+  subtitle: Vår/Sommar 2015
+  price: 30
+- name: Mørke
+  category: Öl
+  type: Porter
+  subtitle:
+  price: 40
+- name: Omnipollo Bianca Mango Lassi
+  category: Öl
+  type: Gose
+  subtitle: (laktos)
+  price: 35
+- name: Omnipollo Mazarin
+  category: Öl
+  type: Pale Ale
+  subtitle: American Pale Ale
+  price: 35
+- name: Omnipollo Zodiak
+  category: Öl
+  type: IPA
+  subtitle:
+  price: 30
+- name: Omnipollo Leon
+  category: Öl
+  type: Ale
+  subtitle: Belgian Blonde Ale
+  price: 30
+- name: Pimento Gingembre Ginger Ale
+  category: Alkoholfritt
+  type: Läsk
+  subtitle:
+  price: 25
+- name: Schöfferhofer
+  category: Öl
+  type: Wit
+  subtitle:
+  price: 30
+- name: Samuel Adams Boston Lager
+  category: Öl
+  type: Lager
+  subtitle:
+  price: 30
+- name: Somersby
+  category: Cider
+  type: Cider
+  subtitle: Päron, Blackberry, Sparkling Rosé
+  price: 20
+- name: Somersby
+  category: Cider
+  type: Cider
+  subtitle: Double Press, Äpple
+  price: 25
+- name: Staropramen
+  category: Öl
+  type: Lager
+  subtitle:
+  price: 25
+- name: Stella Artois
+  category: Öl
+  type: Lager
+  subtitle:
+  price: 25
+- name: Stowford Press
+  category: Cider
+  type: Cider
+  subtitle:
+  price: 25
+- name: Stowford Press Low Alcohol
+  category: Alkoholfritt
+  type: Alkoholfri Cider
+  subtitle:
+  price: 20
+- name: Taras Boulba
+  category: Öl
+  type: Ale
+  subtitle: Belgian Ale
+  price: 30
+- name: To Øl Black Ball
+  category: Öl
+  type: Porter
+  subtitle:
+  price: 45
+- name: To Øl Cloud 9
+  category: Öl
+  type: Wit
+  subtitle:
+  price: 30
+- name: To Øl Yeastus Christus
+  category: Öl
+  type: IPA
+  subtitle: Farmhouse IPA
+  price: 40
+- name: Soul Style  IPA
+  category: Öl
+  type: IPA
+  subtitle:
+  price: 30
+- name: Laguntias IPA
+  category: Öl
+  type: IPA
+  subtitle:
+  price: 30
+- name: Napa Smith Organic IPA
+  category: Öl
+  type: IPA
+  subtitle: Ekologisk IPA
+  price: 35
+- name: Dugges All The Way
+  category: Öl
+  type: IPA
+  subtitle: Session IPA
+  price: 30
+- name: XXX Rye
+  category: Öl
+  type: Ale
+  subtitle: Tripple Ale
+  price: 45
+- name: To Øl Hop Loves Pils
+  category: Öl
+  type: Lager
+  subtitle:
+  price: 35
+- name: To Øl Sofa King Pale Ale
+  category: Öl
+  type: American Pale Ale
+  subtitle:
+  price: 35
+- name: Aass Juleøl
+  category: Öl
+  type: Lager
+  subtitle: Mörk Lager
+  price: 30
+- name: Dugges Tropic Thunder
+  category: Öl
+  type: Ale
+  subtitle: Sour/Wild Ale
+  price: 35
+- name: Mikeller Peter, Pale and Mary
+  category: Öl
+  type: American Pale Ale
+  subtitle: Glutenfri
+  price: 30
+- name: Mikeller Hoppy Lovin’ Christmas
+  category: Öl
+  type: IPA
+  subtitle:
+  price: 40
+- name: Innis & Gunn
+  category: Öl
+  type: Lager
+  subtitle:
+  price: 20
+- name: Traquair House
+  category: Öl
+  type: Ale
+  subtitle:
+  price: 35
