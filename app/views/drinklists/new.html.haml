@@ -1,4 +1,4 @@
 %h1 Ny dryck
 
-= form_for @bottle, url: { action: :new } do |f|
+= form_for @bottle, url: drinklists_path do |f|
   = render 'form', f: f

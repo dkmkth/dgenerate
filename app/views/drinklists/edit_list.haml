@@ -1,4 +1,5 @@
-= form_tag edit_drinklist_path(1) do
+= link_to "Ny dryck", new_drinklist_path
+= form_tag save_list_path do
   %table
     %thead
       %tr
@@ -15,7 +16,7 @@
     %tbody
       - @bottles.each do |d|
         %tr
-          %td= check_box_tag "drinklist_ids[]", d.id
+          %td= check_box_tag "drinklist_ids[]", d.id, d.active
           %td= d.name
           %td= d.brand
           %td= d.category
@@ -25,3 +26,4 @@
           %td= d.price
           %td= link_to 'Ändra', edit_drinklist_path(id: d.id)
           %td= link_to 'Ta bort', drinklist_path(d), 'data-method' => :delete, class: 'delete', confirm: 'Är du säker?'
+  = submit_tag

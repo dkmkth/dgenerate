@@ -54,6 +54,7 @@ class DrinklistsController < ApplicationController
       p bottle
       bottle.update(active: true)
     end
+
     redirect_to edit_list_url
   end
 
