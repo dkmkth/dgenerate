@@ -9,7 +9,7 @@
     .title
       %h1
         Datas Klubbmästeri
-      %img{id: 'logo', src: 'dkm_tiny.png'}
+      %img{id: 'logo', src: asset_path('dkm_tiny.png')}
     #drinklist
       - @drinks.each do |category, list|
         .drink_category>
