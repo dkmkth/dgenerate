@@ -1,0 +1,22 @@
+%table
+  %thead
+    %tr
+      %th Aktiv
+      %th Märke
+      %th Kategory
+      %th Underkategori
+      %th Typ
+      %th Inköpspris
+      %th Pris
+      %th Spara
+  %tbody
+    %tr
+      = f.hidden_field :id
+      %td= f.text_field :name
+      %td= f.text_field :brand
+      %td= f.text_field :category
+      %td= f.text_field :category_type
+      %td= f.text_field :subtype
+      %td= f.text_field :purchase_price
+      %td= f.text_field :price
+      %td= f.submit
