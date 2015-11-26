@@ -6,4 +6,4 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-YAML.load_file('db/seeds/bottles.yaml').each { |x| Bottle.create(name: x["name"], category: x["category"], category_type: x["type"], subtype: x["subtitle"], price: x["price"]) }
+YAML.load_file('db/seeds/bottles.yaml').each { |x| Bottle.create(name: x["name"], category: x["category"], category_type: x["type"], subtype: x["subtitle"], price: x["price"], active: true) }
