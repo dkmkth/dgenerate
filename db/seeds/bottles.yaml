@@ -1,17 +1,7 @@
-- name: Angry Boy Brown Ale
-  category: Öl
-  type: Brown Ale
-  subtitle:
-  price: 40
 - name: BEO
   category: Alkoholfritt
   type: Alkoholfri Cider
   subtitle: Blood Orange, Apple
-  price: 20
-- name: Brewdog Nanny State
-  category: Alkoholfritt
-  type: Alkoholfri Öl
-  subtitle:
   price: 20
 - name: Brooklyn Brown Ale
   category: Öl
@@ -23,11 +13,6 @@
   type: IPA
   subtitle:
   price: 30
-- name: Brooklyn Lager
-  category: Öl
-  type: Lager
-  subtitle:
-  price: 25
 - name: Carlsberg Export
   category: Öl
   type: Lager
@@ -38,20 +23,25 @@
   type: IPA
   subtitle:
   price: 35
+- name: Coopers Brewery Sparling Ale
+  category: Öl
+  type: Ale
+  subtitle:
+  price: 30
 - name: Coronado Idiot IPA
   category: Öl
   type: IPA
   subtitle:
   price: 40
-- name: Dugges All The Way
+- name: Coronado Pomegranate IPA
   category: Öl
   type: IPA
-  subtitle: Session IPA
-  price: 30
+  subtitle:
+  price: 35
 - name: Fentimans
   category: Alkoholfritt
   type: Läsk
-  subtitle: Curiosity Cola, Ginger Beer, Victorian Lemonade, Elderflower, Dandelion & Burdock, Lemon Shandy, Rose Lemonade, Mandarin & Orange
+  subtitle: Victorian Lemonade, Dandelion & Burdock, Lemon Shandy, Mandarin & Orange
   price: 20
 - name: Fentimans Herbal Tonic
   category: Alkoholfritt
@@ -63,10 +53,10 @@
   type: Läsk
   subtitle: Herbal/Original
   price: 10
-- name: Flor De Jamaica
+- name: Flor De Jamaica Organic Tea
   category: Alkoholfritt
   type: Läsk
-  subtitle: Organic Tea
+  subtitle:
   price: 20
 - name: Guinness
   category: Öl
@@ -78,12 +68,12 @@
   type: Cider
   subtitle: Cloudy Cider
   price: 35
-- name: H Westons & Sons
+- name: H Westons & Sons Premium Cider
   category: Cider
   type: Cider
   subtitle:
   price: 25
-- name: Wyld Wood Organic Apple
+- name: H Westons & Sons Wyld Wood Organic Apple
   category: Cider
   type: Cider
   subtitle:
@@ -93,11 +83,6 @@
   type: Wit
   subtitle: Biére blanche
   price: 25
-- name: I love you with my Stout
-  category: Öl
-  type: Stout
-  subtitle:
-  price: 50
 - name: Klassiker Lingon
   category: Cider
   type: Cider
@@ -143,10 +128,25 @@
   type: Alkoholfri Öl
   subtitle:
   price: 20
+- name: Mikkeller Hoppy Lovin Christmas
+  category: Öl
+  type: IPA
+  subtitle:
+  price: 40
 - name: Mikkeller K:rlek
   category: Öl
   type: Pale Ale
   subtitle: Vår/Sommar 2015
+  price: 30
+- name: Mikkeller Wheat is the new Hops
+  category: Öl
+  type: IPA
+  subtitle:
+  price: 40
+- name: Mikkeller Xmas Wish
+  category: Öl
+  type: IPA
+  subtitle: Glutenfri
   price: 30
 - name: Mørke
   category: Öl
@@ -158,25 +158,20 @@
   type: Pale Ale
   subtitle: American Pale Ale
   price: 35
-- name: Omnipollo Zodiak
-  category: Öl
-  type: IPA
-  subtitle:
-  price: 30
-- name: Pimento Gingembre
+- name: Pimento Gingembre Ginger Ale
   category: Alkoholfritt
   type: Läsk
-  subtitle: Ginger Ale
-  price: 25
-- name: Schöfferhofer
-  category: Öl
-  type: Wit
   subtitle:
-  price: 30
-- name: Boston Lager
+  price: 25
+- name: Samuel Adams Boston Lager
   category: Öl
   type: Lager
-  subtitle: Samuel Adams
+  subtitle:
+  price: 30
+- name: Samuel Adams Winter Lager
+  category: Öl
+  type: Lager
+  subtitle: Winter Lager
   price: 30
 - name: Somersby
   category: Cider
@@ -187,16 +182,6 @@
   category: Cider
   type: Cider
   subtitle: Double Press, Äpple
-  price: 25
-- name: St:Eriks IPA
-  category: Öl
-  type: IPA
-  subtitle:
-  price: 25
-- name: Staropramen
-  category: Öl
-  type: Lager
-  subtitle:
   price: 25
 - name: Stella Artois
   category: Öl
@@ -211,31 +196,31 @@
 - name: Stowford Press Low Alcohol
   category: Alkoholfritt
   type: Alkoholfri Cider
-  subtitle:
+  subtitle: 0.50%
   price: 20
-- name: Taras Boulba
+- name: Terrapin Moo-Hoo Chocolate Milk Stout
   category: Öl
-  type: Ale
-  subtitle: Belgian Ale
+  type: Stout
+  subtitle:
   price: 30
+- name: Timmermans Framboise
+  category: Öl
+  type: Övrigt
+  subtitle: Spontanjäst
+  price: 25
 - name: To Øl Black Ball
   category: Öl
   type: Porter
   subtitle:
   price: 45
-- name: To Øl Yeastus Christus
+- name: Siren Undercurrent
   category: Öl
-  type: IPA
-  subtitle: Farmhouse IPA
-  price: 40
-- name: Soul Style  IPA
+  type: Pale Ale
+  subtitle: Oatmeal Pale Ale
+  price: 35
+- name: Lagunitas Holiday Ale
   category: Öl
-  type: IPA
-  subtitle:
-  price: 30
-- name: Laguntias IPA
-  category: Öl
-  type: IPA
+  type: Ale
   subtitle:
   price: 30
 - name: Napa Smith Organic IPA
@@ -248,12 +233,7 @@
   type: IPA
   subtitle: Session IPA
   price: 30
-- name: XXX Rye
-  category: Öl
-  type: Ale
-  subtitle: Tripple Ale
-  price: 45
-- name: To Øl Hop Loves Pils
+- name: To Øl Hop Love Pils
   category: Öl
   type: Lager
   subtitle:
@@ -263,26 +243,11 @@
   type: American Pale Ale
   subtitle:
   price: 35
-- name: Aass Juleøl
-  category: Öl
-  type: Lager
-  subtitle: Mörk Lager
-  price: 30
 - name: Dugges Tropic Thunder
   category: Öl
   type: Ale
   subtitle: Sour Ale
   price: 35
-- name: Mikeller Peter, Pale and Mary
-  category: Öl
-  type: American Pale Ale
-  subtitle: Glutenfri
-  price: 30
-- name:  Hoppy Lovin’ Christmas
-  category: Öl
-  type: IPA
-  subtitle: Mikeller
-  price: 40
 - name: Innis & Gunn
   category: Öl
   type: Lager
@@ -293,23 +258,28 @@
   type: Ale
   subtitle:
   price: 35
-- name: Grapefruit Sculpin'
+- name: Ballast Point Grapefruit Sculpin
   category: Öl
   type: IPA
-  subtitle: Ballast Point
+  subtitle:
   price: 40
 - name: Epic Armageddon
   category: Öl
   type: IPA
   subtitle:
   price: 35
-- name: Hop Ottin' IPA
+- name: Anderson Valley Hop Ottin' IPA
   category: Öl
   type: IPA
   subtitle:
   price: 35
+- name: Anderson Valley Winter Solstice
+  category: Öl
+  type: Ale
+  subtitle: Seasonal Ale
+  price: 30
 - name: Ballast Point Fathom
   category: Öl
   type: Lager
   subtitle: Imperial Pale Lager
-  price: 25
+  price: 20
