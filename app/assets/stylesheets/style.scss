@@ -1,27 +1,31 @@
 @page {
-    size: 21cm 29.7cm;
-    margin: 0; /* change the margins as you want them to be. */
+    // size: 21cm 29.7cm;
+    margin: 0;
 }
 
 html {
-  height: 27.39cm;
+  // height: 27.39cm;
   margin: 0;
   padding: 0;
 }
 
 body {
-  margin: 0;
-  margin-top: 2rem;
+  margin: 1em 0;
+  padding: 0;
+  height: 100%;
+  max-height: 1080px;
   font-size: 1.4em;
   line-height: 1.6;
   font-family: "ff-tisa-sans-web-pro";
 }
+
 p {
   text-align: center;
   margin: 0;
   padding: 0;
   font-weight: 700;
 }
+
 table {
   margin: 0 auto;
   width: 100%;
@@ -29,6 +33,7 @@ table {
   border: none;
   border-collapse: collapse;
 }
+
 .price {
   text-align: right;
   width: 10%;
@@ -41,33 +46,30 @@ table {
 .type {
   width: 30%;
 }
-tr:nth-child(even) {
-  background-color: #eee;
-}
-
 
 /* AAaaa */
-ul.leaders {
-    max-width: 40em;
+ul.subcategory-list {
+    // max-width: 40em;
     padding: 0;
     margin: 0;
     /*overflow-x: hidden;*/
     list-style: none;
     margin-bottom: 0.5rem;
+
 }
 
-ul.leaders li:before {
+ul.subcategory-list li:before {
     float: left;
     width: 0;
     white-space: nowrap;
     content:
  ". . . . . . . . . . . . . . . . . . . . . . . . . . . ";
 }
-ul.leaders span:first-child {
+ul.subcategory-list span:first-child {
     padding-right: 0.33em;
     background: white;
 }
-ul.leaders span + span {
+ul.subcategory-list span + span {
     float: right;
     padding-left: 0.33em;
     background: white;
@@ -80,23 +82,26 @@ ul.leaders span + span {
 }
 
 #drinklist {
-  max-height: 29.7cm;
-  width: 800px;
+  margin: 0;
+  width: 95vw;
+  height: 99vh;
   margin-left: auto;
   margin-right: auto;
+  -webkit-columns: 300px 4;
+     -moz-columns: 300px 4;
+          columns: 300px 4;
 }
 
-.drink_category {
-  width: 50%;
-  vertical-align: top;
-  display: inline-block;
-  float: left;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  margin-bottom: 2rem;
+// .drink_category {
+//   box-sizing: border-box;
+//   -moz-box-sizing: border-box;
+//   -webkit-box-sizing: border-box;
+//   margin-bottom: 2rem;
+// }
+.subcategory {
+  -webkit-column-break-inside: avoid;
+            page-break-inside: avoid;
+                 break-inside: avoid;
 }
 
 h2 {
@@ -111,9 +116,11 @@ h2 {
   border-bottom-style: solid;
   margin-bottom: 0.5rem;
 }
+
 h1 {
   font-size: 1.5em;
-  margin: 0;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .footer {
@@ -154,11 +161,11 @@ h1 {
   margin-top: 10px;
 }
 
-h2.Ale:not(.American):not(.Pale):not(.Brown) {
-/*.Vin {*/
-  page-break-before: always;
-  margin-top: 20vh;
-}
+// h2.Ale:not(.American):not(.Pale):not(.Brown) {
+// .Vin {
+//   page-break-before: always;
+//   margin-top: 20vh;
+// }
 
 .title {
   margin: 0 auto;

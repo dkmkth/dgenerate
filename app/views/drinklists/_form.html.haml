@@ -1,21 +1,35 @@
 %table
-  %thead
+  / %th Namn
+  / %th Märke
+  / %th Kategory
+  / %th Underkategori
+  / %th Kommentar
+  / %th Inköpspris
+  / %th Pris
+  / %th Spara
+  %tbody
+    = f.hidden_field :id
     %tr
       %th Namn
-      %th Märke
-      %th Kategory
-      %th Underkategori
-      %th Typ
-      %th Inköpspris
-      %th Pris
-      %th Spara
-  %tbody
-    %tr
-      = f.hidden_field :id
       %td= f.text_field :name
+    %tr
+      %th Märke
       %td= f.text_field :brand
+    %tr
+      %th Kategory
       %td= f.text_field :category
+    %tr
+      %th Underkategori
       %td= f.text_field :category_type
+    %tr
+      %th Kommentar
       %td= f.text_field :subtype
+    %tr
+      %th Inköpspris
       %td= f.text_field :purchase_price
-      %td= f.submit
+    %tr
+      %th Pris
+      %td= f.text_field :price
+    %tr
+      %th Spara
+      %td= f.submit "Spara ölbärka"

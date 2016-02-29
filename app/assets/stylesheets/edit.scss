@@ -1,0 +1,122 @@
+.edit {
+    margin: 0;
+    background: $yellow;
+    color: $black;
+
+    table {
+
+    }
+
+    th {
+        background: $white;
+        margin-top: 1em;
+        padding: .5em;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 3em;
+        text-align: left;
+    }
+
+    tr {}
+
+    td {
+      border-bottom: 5px solid $black;
+      padding: 1rem .25rem;
+      max-width: 10vw;
+    }
+
+    a {
+        color: $black;
+        text-decoration: none;
+    }
+
+    .controls {
+        background: $white;
+        padding: .5em 1em;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+}
+
+// symbols
+$symbol-thickness: 6px;
+$symbol-roundness: 3px;
+$symbol-size: 30px;
+$o-size: $symbol-size - $symbol-thickness;
+
+input {
+    background: $white;
+}
+
+input, button {
+    font-family: "ff-tisa-sans-web-pro";
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    $size: 50px;
+    width: $size;
+    height: $size;
+    border-radius: 50%;
+    border: 2px solid #555;
+    margin-left: 1em;
+
+    &:checked {
+        background: $checked;
+        content: "x";
+        position: relative;
+        &:before, &:after {
+            position: absolute;
+            width: $symbol-thickness;
+            height: $symbol-size;
+            background-color: $black;
+            display: block;
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            border-radius: $symbol-roundness;
+        }
+        &:before {
+            transform: translate(-50%, -50%) rotate(45deg);
+        }
+        &:after {
+            transform: translate(-50%, -50%) rotate(-45deg);
+        }
+    }
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+button,
+input[type="submit"] {
+    background: $yellow;
+    a {
+        color: $black;
+    }
+    font-size: 1em;
+    -webkit-appearance: none;
+    border: 0;
+    border-radius: 5px;
+}
+
+td button {
+    background: $white;
+}
+
+form {
+    // width: 95vw;
+    margin: 1em auto;
+    p {
+        // text-align: left;
+    }
+}
+
+input[type="text"] {
+    border: 0;
+    border-bottom: 3px solid $black;
+    font-size: 1rem;
+}
