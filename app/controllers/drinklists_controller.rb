@@ -6,7 +6,7 @@ class DrinklistsController < ApplicationController
     wine = Bottle.where(category: 'Vin', active: true)
 
     @drinks = {beer: beer, cider: cider, soda: soda, wine: wine}
-    @order = ["Lager", "IPA", "Ale", "Pale Ale", "American Pale Ale", "Brown Ale", "Wit", "Porter", "Stout", "Övrigt"]
+    @order = ["Lager", "Ale", "IPA", "Pale Ale", "American Pale Ale", "Brown Ale", "Wit", "Porter", "Stout", "Övrigt"]
   end
 
   def new
