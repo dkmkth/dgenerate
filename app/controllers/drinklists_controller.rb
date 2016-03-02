@@ -5,7 +5,8 @@ class DrinklistsController < ApplicationController
     soda = Bottle.where(category: 'Alkoholfritt', active: true)
     wine = Bottle.where(category: 'Vin', active: true)
 
-    @drinks = {beer: beer, cider: cider, soda: soda, wine: wine}
+    @drinks = {beer: beer}
+    # @drinks = {beer: beer, cider: cider, soda: soda, wine: wine}
     @order = ["Lager", "Ale", "American Pale Ale", "IPA", "Pale Ale", "Brown Ale", "Wit", "Porter", "Stout", "Övrigt"]
   end
 

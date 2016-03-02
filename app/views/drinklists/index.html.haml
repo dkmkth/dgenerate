@@ -5,6 +5,7 @@
     %title Dryckeslista
   %body
     #drinklist
+      %h1 Ölbärs
       - @drinks.each do |category, list|
         / .drink_category>
         %h1{:class => ["#{category}", "drink_category_title"]}
