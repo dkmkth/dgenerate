@@ -30,6 +30,9 @@ table {
   border: none;
   border-collapse: collapse;
 }
+td {
+  padding: 0.5em 0.35em;
+}
 .price {
   text-align: right;
   width: 10%;
