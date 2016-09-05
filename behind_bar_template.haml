@@ -10,8 +10,8 @@
       %thead
         %tr
           %td Namn
-          %td Typ
-          %td Sort
+          %td Glas
+          %td Ingredienser
           %td Pris
       %tbody
         - drinks.group_by { |d| d['category'] }.each do |category, l|
@@ -19,7 +19,7 @@
             - list.sort{ |a, b| a['name'] <=> b['name'] }.each do |drink|
               %tr
                 %td= drink['name']
-                %td= category
+                %td= drink['glass']
                 - x = (drink['subtitle']) ? drink['subtitle'] : type
                 - if x == category
                   %td= "&nbsp;"
