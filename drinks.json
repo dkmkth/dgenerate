@@ -207,15 +207,6 @@
     "order": 3
   },
   {
-    "name": "T",
-    "subtitle": "Tonic",
-    "price": 20,
-    "type": "Alkoholfritt",
-    "category": "Alkoholfritt",
-    "glass": "Whatever",
-    "order": 2
-  },
-  {
     "name": "Micke",
     "subtitle": "Ananasjuice, Apelsinjuice, Grenadine",
     "price": 20,

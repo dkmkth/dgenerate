@@ -79,6 +79,7 @@ ul.leaders span + span {
 }
 
 .subtitle {
+    display: inline-block;
   font-size: 0.8em;
   font-style: italic;
   margin-bottom: 0.25rem;
@@ -96,9 +97,9 @@ ul.leaders span + span {
    -moz-column-count: 2;
         column-count: 2;
   width: 21cm;
-  vertical-align: top;
-  display: inline-block;
-  float: left;
+  /*vertical-align: top;*/
+  /*display: inline-block;*/
+  /*float: left;*/
   padding-left: 2rem;
   padding-right: 2rem;
   box-sizing: border-box;
@@ -108,7 +109,6 @@ ul.leaders span + span {
 }
 
 h2 {
-
   margin: 0;
   margin-bottom: 0.25rem;
   font-size: 1.2em;
