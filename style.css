@@ -61,6 +61,7 @@ ul.leaders {
 }
 
 ul.leaders li:before {
+    display: inline-block;
     float: left;
     width: 0;
     white-space: nowrap;
@@ -85,13 +86,16 @@ ul.leaders span + span {
 
 #drinklist {
   max-height: 29.7cm;
-  width: 800px;
+  max-width: 21cm;
   margin-left: auto;
   margin-right: auto;
 }
 
 .drink_category {
-  width: 50%;
+  -webkit-column-count: 2;
+   -moz-column-count: 2;
+        column-count: 2;
+  width: 21cm;
   vertical-align: top;
   display: inline-block;
   float: left;
@@ -104,12 +108,21 @@ ul.leaders span + span {
 }
 
 h2 {
+
   margin: 0;
   margin-bottom: 0.25rem;
   font-size: 1.2em;
 }
+/*
+.drink_category li {
+    display: inline-block;
+}*/
 
 .drink_category_title {
+  text-align: center;
+  -webkit-column-span: all; /* Chrome, Safari, Opera */
+    column-span: all;
+  -moz-column-span: all;
   width: 100%;
   border-bottom: 2px;
   border-bottom-style: solid;

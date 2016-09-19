@@ -224,4 +224,22 @@
     "glass": "Whatever",
     "order": 2
   },
+  {
+    "name": "Sex without Paul",
+    "subtitle": "Tranbärsjuice, Apelsinjuice, Grenadine",
+    "price": 20,
+    "type": "Alkoholfritt",
+    "category": "Alkoholfritt",
+    "glass": "Whatever",
+    "order": 2
+  },
+  {
+    "name": "Nånting alkfritt sour",
+    "subtitle": "Nånting alkfritt, Citron, Sockerlag",
+    "price": 20,
+    "type": "Alkoholfritt",
+    "category": "Alkoholfritt",
+    "glass": "Whatever",
+    "order": 2
+  },
 ]
