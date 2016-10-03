@@ -3,7 +3,7 @@ Drink list generator
 
 Usage:
 ```
-ruby generate.rb lists/your_list templates/your_template > your_file
+ruby generate.rb lists/your_list.(json/yaml) templates/your_template.haml > outfiles/your_file.html
 ```
 
 * Open outfile in browser (Works best in Chrome) and print to pdf.
