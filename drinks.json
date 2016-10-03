@@ -144,6 +144,15 @@
     "order": 1
   },
   {
+    "name": "Pink Schlager",
+    "subtitle": "Vodka (2cl), Peachtree (2cl), Citron, Sockerlag, Sprite",
+    "price": 35,
+    "type": "Drinkar",
+    "category": "Drinkar",
+    "glass": "Lowball",
+    "order": 1
+  },
+  {
     "name": "Nånting Sour",
     "subtitle": "Nånting (4cl), Citron, Sockerlag",
     "price": 35,
