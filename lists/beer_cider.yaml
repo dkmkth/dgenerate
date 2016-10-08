@@ -1,28 +1,28 @@
-- name: Angry Boy Brown Ale
-  category: Öl
-  type: Brown Ale
-  subtitle:
-  price: 40
-- name: BEO
-  category: Alkoholfritt
-  type: Alkoholfri Cider
-  subtitle: Blood Orange, Apple
-  price: 20
-- name: Brewdog Nanny State
-  category: Alkoholfritt
-  type: Alkoholfri Öl
-  subtitle:
-  price: 20
-- name: Brooklyn Brown Ale
-  category: Öl
-  type: Brown Ale
-  subtitle:
-  price: 25
+# - name: Angry Boy Brown Ale
+#   category: Öl
+#   type: Brown Ale
+#   subtitle:
+#   price: 40
 - name: Brooklyn East India Pale Ale
   category: Öl
   type: IPA
   subtitle:
   price: 30
+- name: BEO
+  category: Alkoholfritt
+  type: Alkoholfri Cider
+  subtitle: Blood Orange, Apple
+  price: 20
+# - name: Brewdog Nanny State
+#   category: Alkoholfritt
+#   type: Alkoholfri Öl
+#   subtitle:
+#   price: 20
+# - name: Brooklyn Brown Ale
+#   category: Öl
+#   type: Brown Ale
+#   subtitle:
+#   price: 25
 - name: Brooklyn Lager
   category: Öl
   type: Lager
@@ -33,21 +33,21 @@
   type: Lager
   subtitle:
   price: 20
-- name: Coppersmith White IPA
-  category: Öl
-  type: IPA
-  subtitle:
-  price: 35
-- name: Coronado Idiot IPA
-  category: Öl
-  type: IPA
-  subtitle:
-  price: 40
-- name: Dugges All The Way
-  category: Öl
-  type: IPA
-  subtitle: Session IPA
-  price: 30
+# - name: Coppersmith White IPA
+#   category: Öl
+#   type: IPA
+#   subtitle:
+#   price: 35
+# - name: Coronado Idiot IPA
+#   category: Öl
+#   type: IPA
+#   subtitle:
+#   price: 40
+# - name: Dugges All The Way
+#   category: Öl
+#   type: IPA
+#   subtitle: Session IPA
+#   price: 30
 - name: Fentimans
   category: Alkoholfritt
   type: Läsk
@@ -63,11 +63,11 @@
   type: Läsk
   subtitle: Herbal/Original
   price: 10
-- name: Flor De Jamaica
-  category: Alkoholfritt
-  type: Läsk
-  subtitle: Organic Tea
-  price: 20
+# - name: Flor De Jamaica
+#   category: Alkoholfritt
+#   type: Läsk
+#   subtitle: Organic Tea
+#   price: 20
 - name: Guinness
   category: Öl
   type: Stout
@@ -83,76 +83,91 @@
   type: Cider
   subtitle:
   price: 25
-- name: Wyld Wood Organic Apple
-  category: Cider
-  type: Cider
-  subtitle:
-  price: 40
+# - name: Wyld Wood Organic Apple
+#   category: Cider
+#   type: Cider
+#   subtitle:
+#   price: 40
 - name: Hoegaarden
   category: Öl
   type: Wit
   subtitle: Biére blanche
   price: 25
-- name: I love you with my Stout
-  category: Öl
-  type: Stout
-  subtitle:
-  price: 50
+# - name: I love you with my Stout
+#   category: Öl
+#   type: Stout
+#   subtitle:
+#   price: 50
 - name: Klassiker Lingon
   category: Cider
   type: Cider
   subtitle:
   price: 25
-- name: Klassiker Peach
+- name: Smirnoff Ice
   category: Cider
-  type: Cider
+  type: Alkoläsk
   subtitle:
-  price: 30
-- name: Kumala Core Blends
-  category: Vin
-  type: Rött
-  subtitle: Ruby/Merlot/Pinotage Piccolo
-  price: 40
-- name: Kumala Core Blends
-  category: Vin
-  type: Vitt
-  subtitle: Colombard/Chardonnay Piccolo
-  price: 40
+  price: 35
+- name: Cube
+  category: Cider
+  type: Alkoläsk
+  subtitle:
+  price: 20
+# - name: Klassiker Peach
+#   category: Cider
+#   type: Cider
+#   subtitle:
+#   price: 30
+# - name: Kumala Core Blends
+#   category: Vin
+#   type: Rött
+#   subtitle: Ruby/Merlot/Pinotage Piccolo
+#   price: 40
+# - name: Kumala Core Blends
+#   category: Vin
+#   type: Vitt
+#   subtitle: Colombard/Chardonnay Piccolo
+#   price: 40
 - name: Läsk
   category: Alkoholfritt
   type: Läsk
   subtitle:
   price: 10
-- name: Magners
-  category: Cider
-  type: Cider
-  subtitle: Original Irish Cider/Pear/Berry
-  price: 25
-- name: Mikeller Red/White Christmas
-  category: Öl
-  type: Övrigt
-  subtitle: Amber/Wit Hybrid
-  price: 40
+# - name: Magners
+#   category: Cider
+#   type: Cider
+#   subtitle: Original Irish Cider/Pear/Berry
+#   price: 25
+# - name: Mikeller Red/White Christmas
+#   category: Öl
+#   type: Övrigt
+#   subtitle: Amber/Wit Hybrid
+#   price: 40
 - name: Mikkeller Drink'in The Sun
   category: Alkoholfritt
   type: Alkoholfri Öl
   subtitle:
   price: 20
-- name: Mikkeller Drink'in The Snow
+- name: Mikkeller Hallo Ich Bin
   category: Alkoholfritt
   type: Alkoholfri Öl
   subtitle:
   price: 20
-- name: Mikkeller K:rlek
-  category: Öl
-  type: Pale Ale
-  subtitle: Vår/Sommar 2015
-  price: 30
-- name: Mørke
-  category: Öl
-  type: Porter
-  subtitle:
-  price: 40
+# - name: Mikkeller Drink'in The Snow
+#   category: Alkoholfritt
+#   type: Alkoholfri Öl
+#   subtitle:
+#   price: 20
+# - name: Mikkeller K:rlek
+#   category: Öl
+#   type: Pale Ale
+#   subtitle: Vår/Sommar 2015
+#   price: 30
+# - name: Mørke
+#   category: Öl
+#   type: Porter
+#   subtitle:
+#   price: 40
 - name: Omnipollo Mazarin
   category: Öl
   type: Pale Ale
@@ -163,16 +178,21 @@
   type: IPA
   subtitle:
   price: 30
+- name: Omnipollo Leon
+  category: Öl
+  type: Pale Ale
+  subtitle: Belgian Pale Ale
+  price: 35
 - name: Pimento Gingembre
   category: Alkoholfritt
   type: Läsk
   subtitle: Ginger Ale
   price: 25
-- name: Schöfferhofer
-  category: Öl
-  type: Wit
-  subtitle:
-  price: 30
+# - name: Schöfferhofer
+#   category: Öl
+#   type: Wit
+#   subtitle:
+#   price: 30
 - name: Boston Lager
   category: Öl
   type: Lager
@@ -188,16 +208,31 @@
   type: Cider
   subtitle: Double Press, Äpple
   price: 25
-- name: St:Eriks IPA
-  category: Öl
-  type: IPA
-  subtitle:
+- name: Xide
+  category: Cider
+  type: Cider
+  subtitle: Cactus Lime, Watermelon
   price: 25
+- name: Xide
+  category: Alkoholfritt
+  type: Alkoholfri Cider
+  subtitle:
+  price: 15
+# - name: St:Eriks IPA
+#   category: Öl
+#   type: IPA
+#   subtitle:
+#   price: 25
 - name: Staropramen
   category: Öl
   type: Lager
   subtitle:
   price: 25
+- name: Staropramen
+  category: Alkoholfritt
+  type: Alkoholfri Öl
+  subtitle:
+  price: 20
 - name: Stella Artois
   category: Öl
   type: Lager
@@ -213,103 +248,183 @@
   type: Alkoholfri Cider
   subtitle:
   price: 20
-- name: Taras Boulba
+# - name: Taras Boulba
+#   category: Öl
+#   type: Ale
+#   subtitle: Belgian Ale
+#   price: 30
+- name: Mum's The Word
+  category: Öl
+  type: Porter
+  subtitle: Smoked Milk Porter with Cherries and Chipotle Chilli
+  price: 35
+- name: All Bretts Are Off
+  category: Öl
+  type: Övrigt
+  subtitle: English Bitter
+  price: 35
+- name: Ebulum
   category: Öl
   type: Ale
-  subtitle: Belgian Ale
+  subtitle: Elderberry Black Ale
   price: 30
 - name: To Øl Black Ball
   category: Öl
   type: Porter
   subtitle:
   price: 45
-- name: To Øl Yeastus Christus
+- name: To Øl Cloud 9 Wit
   category: Öl
-  type: IPA
-  subtitle: Farmhouse IPA
-  price: 40
-- name: Soul Style  IPA
-  category: Öl
-  type: IPA
+  type: Wit
   subtitle:
   price: 30
+- name: To Øl Reparationsbajer
+  category: Öl
+  type: Lager
+  subtitle: Glutenfri
+  price: 30
+# - name: To Øl Yeastus Christus
+#   category: Öl
+#   type: IPA
+#   subtitle: Farmhouse IPA
+#   price: 40
+# - name: Soul Style  IPA
+#   category: Öl
+#   type: IPA
+#   subtitle:
+#   price: 30
 - name: Laguntias IPA
   category: Öl
   type: IPA
   subtitle:
   price: 30
-- name: Napa Smith Organic IPA
-  category: Öl
-  type: IPA
-  subtitle: Ekologisk IPA
-  price: 35
+# - name: Napa Smith Organic IPA
+#   category: Öl
+#   type: IPA
+#   subtitle: Ekologisk IPA
+#   price: 35
 - name: Dugges All The Way
   category: Öl
   type: IPA
   subtitle: Session IPA
   price: 30
-- name: XXX Rye
-  category: Öl
-  type: Ale
-  subtitle: Tripple Ale
-  price: 45
-- name: To Øl Hop Loves Pils
-  category: Öl
-  type: Lager
-  subtitle:
-  price: 35
-- name: To Øl Sofa King Pale Ale
-  category: Öl
-  type: American Pale Ale
-  subtitle:
-  price: 35
-- name: Aass Juleøl
-  category: Öl
-  type: Lager
-  subtitle: Mörk Lager
-  price: 30
-- name: Dugges Tropic Thunder
+# - name: XXX Rye
+#   category: Öl
+#   type: Ale
+#   subtitle: Tripple Ale
+#   price: 45
+# - name: To Øl Hop Loves Pils
+#   category: Öl
+#   type: Lager
+#   subtitle:
+#   price: 35
+# - name: To Øl Sofa King Pale Ale
+#   category: Öl
+#   type: American Pale Ale
+#   subtitle:
+#   price: 35
+# - name: Aass Juleøl
+#   category: Öl
+#   type: Lager
+#   subtitle: Mörk Lager
+#   price: 30
+- name: Dugges Tropic Sunrise
   category: Öl
   type: Ale
   subtitle: Sour Ale
   price: 35
-- name: Mikeller Peter, Pale and Mary
+# - name: Dugges Tropic Thunder
+#   category: Öl
+#   type: Ale
+#   subtitle: Sour Ale
+#   price: 35
+- name: Mikkeller Peter, Pale and Mary
   category: Öl
-  type: American Pale Ale
-  subtitle: Glutenfri
+  type: Pale Ale
+  subtitle: Glutenfri American Pale ALe
   price: 30
-- name:  Hoppy Lovin’ Christmas
+- name: Mikkeller American Dream
+  category: Öl
+  type: Lager
+  subtitle:
+  price: 25
+- name: Daura
+  category: Öl
+  type: Lager
+  subtitle: Glutenfri
+  price: 25
+- name: Jämtlands Hell
+  category: Öl
+  type: Lager
+  subtitle:
+  price: 25
+- name: Hanverksbryggeriet Indianen
   category: Öl
   type: IPA
-  subtitle: Mikeller
+  subtitle:
   price: 40
-- name: Innis & Gunn
+- name: Omnipollo 3.5
+  category: Öl
+  type: Gose
+  subtitle: Pineapple Gose
+  price: 30
+- name: Omnipollo Bianca
+  category: Öl
+  type: Gose
+  subtitle: Raspberry Lassi Gose
+  price: 35
+- name: Hidden Gem
+  category: Öl
+  type: IPA
+  subtitle:
+  price: 35
+- name: Perdition
+  category: Öl
+  type: Stout
+  subtitle: Sour Raspberry Stout
+  price: 45
+- name: Norrlunds Guld
   category: Öl
   type: Lager
   subtitle:
   price: 20
-- name: Traquair House
+- name: Omnipollo 3.5
   category: Öl
-  type: Ale
-  subtitle:
-  price: 35
-- name: Grapefruit Sculpin'
-  category: Öl
-  type: IPA
-  subtitle: Ballast Point
-  price: 40
-- name: Epic Armageddon
-  category: Öl
-  type: IPA
-  subtitle:
-  price: 35
-- name: Hop Ottin' IPA
-  category: Öl
-  type: IPA
-  subtitle:
-  price: 35
-- name: Ballast Point Fathom
-  category: Öl
-  type: Lager
-  subtitle: Imperial Pale Lager
-  price: 25
+  type: Gose
+  subtitle: Pineapple Gose
+  price: 30
+# - name:  Hoppy Lovin’ Christmas
+#   category: Öl
+#   type: IPA
+#   subtitle: Mikeller
+#   price: 40
+# - name: Innis & Gunn
+#   category: Öl
+#   type: Lager
+#   subtitle:
+#   price: 20
+# - name: Traquair House
+#   category: Öl
+#   type: Ale
+#   subtitle:
+#   price: 35
+# - name: Grapefruit Sculpin'
+#   category: Öl
+#   type: IPA
+#   subtitle: Ballast Point
+#   price: 40
+# - name: Epic Armageddon
+#   category: Öl
+#   type: IPA
+#   subtitle:
+#   price: 35
+# - name: Hop Ottin' IPA
+#   category: Öl
+#   type: IPA
+#   subtitle:
+#   price: 35
+# - name: Ballast Point Fathom
+#   category: Öl
+#   type: Lager
+#   subtitle: Imperial Pale Lager
+#   price: 25
