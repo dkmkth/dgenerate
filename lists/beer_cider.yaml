@@ -8,11 +8,11 @@
   type: IPA
   subtitle:
   price: 30
-- name: BEO
-  category: Alkoholfritt
-  type: Alkoholfri Cider
-  subtitle: Blood Orange, Apple
-  price: 20
+# - name: BEO
+#   category: Alkoholfritt
+#   type: Alkoholfri Cider
+#   subtitle: Blood Orange, Apple
+#   price: 20
 # - name: Brewdog Nanny State
 #   category: Alkoholfritt
 #   type: Alkoholfri Öl
@@ -51,7 +51,7 @@
 - name: Fentimans
   category: Alkoholfritt
   type: Läsk
-  subtitle: Curiosity Cola, Ginger Beer, Victorian Lemonade, Elderflower, Dandelion & Burdock, Lemon Shandy, Rose Lemonade, Mandarin & Orange
+  subtitle: Curiosity Cola, Victorian Lemonade, Elderflower, Rose Lemonade
   price: 20
 - name: Fentimans Herbal Tonic
   category: Alkoholfritt
@@ -113,6 +113,11 @@
   type: Alkoläsk
   subtitle:
   price: 20
+- name: Garage Hard Lemon
+  category: Cider
+  type: Alkoläsk
+  subtitle: Lemonad
+  price: 30
 # - name: Klassiker Peach
 #   category: Cider
 #   type: Cider
@@ -168,11 +173,11 @@
 #   type: Porter
 #   subtitle:
 #   price: 40
-- name: Omnipollo Mazarin
-  category: Öl
-  type: Pale Ale
-  subtitle: American Pale Ale
-  price: 35
+# - name: Omnipollo Mazarin
+#   category: Öl
+#   type: Pale Ale
+#   subtitle: American Pale Ale
+#   price: 35
 - name: Omnipollo Zodiak
   category: Öl
   type: IPA
@@ -183,6 +188,7 @@
   type: Pale Ale
   subtitle: Belgian Pale Ale
   price: 35
+
 - name: Pimento Gingembre
   category: Alkoholfritt
   type: Läsk
@@ -206,6 +212,11 @@
 - name: Somersby
   category: Cider
   type: Cider
+  subtitle: Äpple
+  price: 25
+- name: Somersby
+  category: Cider
+  type: Cider
   subtitle: Double Press, Äpple
   price: 25
 - name: Xide
@@ -217,7 +228,7 @@
   category: Alkoholfritt
   type: Alkoholfri Cider
   subtitle:
-  price: 15
+  price: 20
 # - name: St:Eriks IPA
 #   category: Öl
 #   type: IPA
@@ -238,11 +249,11 @@
   type: Lager
   subtitle:
   price: 25
-- name: Stowford Press
-  category: Cider
-  type: Cider
-  subtitle:
-  price: 25
+# - name: Stowford Press
+#   category: Cider
+#   type: Cider
+#   subtitle:
+#   price: 25
 - name: Stowford Press Low Alcohol
   category: Alkoholfritt
   type: Alkoholfri Cider
@@ -283,6 +294,11 @@
   type: Lager
   subtitle: Glutenfri
   price: 30
+- name: To Øl Thirsty Frontier
+  category: Öl
+  type: Session IPA
+  subtitle:
+  price: 35
 # - name: To Øl Yeastus Christus
 #   category: Öl
 #   type: IPA
@@ -348,7 +364,7 @@
   type: Lager
   subtitle:
   price: 25
-- name: Daura
+- name: Estrella Daura
   category: Öl
   type: Lager
   subtitle: Glutenfri
@@ -363,16 +379,11 @@
   type: IPA
   subtitle:
   price: 40
-- name: Omnipollo 3.5
-  category: Öl
-  type: Gose
-  subtitle: Pineapple Gose
-  price: 30
 - name: Omnipollo Bianca
   category: Öl
   type: Gose
   subtitle: Raspberry Lassi Gose
-  price: 35
+  price: 40
 - name: Hidden Gem
   category: Öl
   type: IPA
