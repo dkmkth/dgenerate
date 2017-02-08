@@ -155,10 +155,12 @@ h1 {
   margin-top: 10px;
 }
 
-/*h2.Ale:not(.American):not(.Pale):not(.Brown) {
+/*h2.Ale:not(.American):not(.Pale):not(.Brown) {*/
+h2.Pale.Ale,
+h2.Alkoläsk {
   page-break-before: always;
   margin-top: 20vh;
-}*/
+}
 
 .title {
   margin: 0 auto;

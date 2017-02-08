@@ -51,7 +51,7 @@
 - name: Fentimans
   category: Alkoholfritt
   type: Läsk
-  subtitle: Curiosity Cola, Victorian Lemonade, Elderflower, Rose Lemonade
+  subtitle: Curiosity Cola, Victorian Lemonade, Elderflower, Rose Lemonade, Dandelion & Burdock, Ginger Beer
   price: 20
 - name: Fentimans Herbal Tonic
   category: Alkoholfritt
@@ -123,11 +123,11 @@
   type: Alkoläsk
   subtitle:
   price: 30
-- name: Cube
-  category: Cider
-  type: Alkoläsk
-  subtitle:
-  price: 20
+# - name: Cube
+#   category: Cider
+#   type: Alkoläsk
+#   subtitle:
+#   price: 20
 - name: Garage Hard Lemon
   category: Cider
   type: Alkoläsk
@@ -202,6 +202,21 @@
 #   type: Porter
 #   subtitle:
 #   price: 40
+- name: Kona Castaway
+  category: Öl
+  type: IPA
+  subtitle:
+  price: 35
+- name: Kona Longboard
+  category: Öl
+  type: Lager
+  subtitle: Island Lager
+  price: 35
+- name: Kona Fire Rock
+  category: Öl
+  type: Pale Ale
+  subtitle:
+  price: 35
 - name: Omnipollo Mazarin
   category: Öl
   type: Pale Ale
@@ -217,16 +232,26 @@
   type: Pale Ale
   subtitle: Belgian Pale Ale
   price: 35
-- name: Omnipollo Mazarin
-  category: Öl
-  type: Pale Ale
-  subtitle:
-  price: 35
 - name: Omnipollo Arzachel
   category: Öl
   type: Session IPA
   subtitle: Session Imperial IPA 3.5%
   price: 35
+- name: Omnipollo Bianca
+  category: Öl
+  type: Gose
+  subtitle: Raspberry Lassi Gose
+  price: 35
+- name: Omnipollo Ice Cream Pale Ale
+  category: Öl
+  type: Pale Ale
+  subtitle: American Pale Ale
+  price: 55
+- name: Omnipollo Lemon Meringue Ice Cream Pie
+  category: Öl
+  type: Sour Ale
+  subtitle: Fruit Beer
+  price: 50
 - name: Pimento Gingembre
   category: Alkoholfritt
   type: Läsk
@@ -332,11 +357,11 @@
 #   type: Ale
 #   subtitle: Elderberry Black Ale
 #   price: 30
-# - name: To Øl Black Ball
-#   category: Öl
-#   type: Porter
-#   subtitle:
-#   price: 45
+- name: To Øl Black Ball
+  category: Öl
+  type: Porter
+  subtitle:
+  price: 45
 - name: To Øl Cloud 9 Wit
   category: Öl
   type: Wit
@@ -452,16 +477,16 @@
   type: IPA
   subtitle:
   price: 40
-# - name: Omnipollo Bianca
+# - name: Hidden Gem
 #   category: Öl
-#   type: Gose
-#   subtitle: Raspberry Lassi Gose
-#   price: 40
-- name: Hidden Gem
+#   type: IPA
+#   subtitle:
+#   price: 35
+- name: Melleruds Prima Julöl
   category: Öl
-  type: IPA
+  type: Lager
   subtitle:
-  price: 35
+  price: 20
 - name: Perdition
   category: Öl
   type: Stout
