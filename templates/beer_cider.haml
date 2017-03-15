@@ -16,7 +16,7 @@
           / drink_category_title= category
           %h1{:class => ["#{category}", "drink_category_title"]}
             = category
-          - order = ["Lager", "IPA", "Session IPA", "Ale", "Pale Ale", "American Pale Ale", "Brown Ale", "Sour Ale", "Wit", "Gose", "Porter", "Stout", "Övrigt"]
+          - order = ["Lager", "IPA", "Session IPA", "Ale", "Pale Ale", "American Pale Ale", "Brown Ale", "Sour Ale", "Wit", "Berliner Weisse", "Gose", "Lambic", "Porter", "Stout", "Övrigt"]
           - l.group_by { |l| l['type'] }.sort_by {|e| order.index(e.first) }.each do |type, list|
             - if type != category
               %h2{:class => "#{type}"}

@@ -156,8 +156,8 @@ h1 {
 }
 
 /*h2.Ale:not(.American):not(.Pale):not(.Brown) {*/
-h2.Pale.Ale,
-h2.Alkoläsk {
+/*h2.Pale.Ale,*/
+h2.Sour.Ale {
   page-break-before: always;
   margin-top: 20vh;
 }

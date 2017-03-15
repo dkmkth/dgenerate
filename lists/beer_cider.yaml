@@ -7,27 +7,17 @@
   category: Öl
   type: IPA
   subtitle:
-  price: 30
-# - name: BEO
-#   category: Alkoholfritt
-#   type: Alkoholfri Cider
-#   subtitle: Blood Orange, Apple
-#   price: 20
+  price: 35
 # - name: Brewdog Nanny State
 #   category: Alkoholfritt
 #   type: Alkoholfri Öl
 #   subtitle:
 #   price: 20
-# - name: Brooklyn Brown Ale
-#   category: Öl
-#   type: Brown Ale
-#   subtitle:
-#   price: 25
 - name: Brooklyn Lager
   category: Öl
   type: Lager
   subtitle:
-  price: 25
+  price: 30
 - name: Carlsberg Export
   category: Öl
   type: Lager
@@ -63,11 +53,11 @@
   type: Läsk
   subtitle: Herbal/Original
   price: 10
-- name: 3 Fonteinen Hommage
-  category: Öl
-  type: Sour Ale
-  subtitle: 75cl / Fruit Lambic
-  price: 265
+# - name: 3 Fonteinen Hommage
+#   category: Öl
+#   type: Sour Ale
+#   subtitle: 75cl / Fruit Lambic
+#   price: 265
 # - name: Flor De Jamaica
 #   category: Alkoholfritt
 #   type: Läsk
@@ -83,11 +73,11 @@
   type: Cider
   subtitle: Cloudy Cider
   price: 35
-- name: H Westons & Sons
-  category: Cider
-  type: Cider
-  subtitle:
-  price: 25
+# - name: H Westons & Sons
+#   category: Cider
+#   type: Cider
+#   subtitle:
+#   price: 25
 # - name: Wyld Wood Organic Apple
 #   category: Cider
 #   type: Cider
@@ -128,16 +118,16 @@
 #   type: Alkoläsk
 #   subtitle:
 #   price: 20
-- name: Garage Hard Lemon
-  category: Cider
-  type: Alkoläsk
-  subtitle: Lemonad
-  price: 30
-- name: Klassiker Peach
-  category: Cider
-  type: Cider
-  subtitle:
-  price: 30
+# - name: Garage Hard Lemon
+#   category: Cider
+#   type: Alkoläsk
+#   subtitle: Lemonad
+# #   price: 30
+# - name: Klassiker Peach
+#   category: Cider
+#   type: Cider
+#   subtitle:
+#   price: 30
 # - name: Kumala Core Blends
 #   category: Vin
 #   type: Rött
@@ -167,11 +157,16 @@
   category: Alkoholfritt
   type: Alkoholfri Öl
   price: 20
-# - name: Mikkeller Hallo Ich Bin
-#   category: Alkoholfritt
-#   type: Alkoholfri Öl
-#   subtitle:
-#   price: 20
+- name: Mikkeller Hallo Ich Bin Berliner
+  category: Alkoholfritt
+  type: Alkoholfri Öl
+  subtitle:
+  price: 20
+- name: Mikkeller Ambler
+  category: Alkoholfritt
+  type: Alkoholfri Öl
+  subtitle: Red ale
+  price: 20
 # - name: Mikkeller Drink'in The Snow
 #   category: Alkoholfritt
 #   type: Alkoholfri Öl
@@ -202,16 +197,16 @@
 #   type: Porter
 #   subtitle:
 #   price: 40
-- name: Kona Castaway
-  category: Öl
-  type: IPA
-  subtitle:
-  price: 35
-- name: Kona Longboard
-  category: Öl
-  type: Lager
-  subtitle: Island Lager
-  price: 35
+# - name: Kona Castaway
+#   category: Öl
+#   type: IPA
+#   subtitle:
+#   price: 35
+# - name: Kona Longboard
+#   category: Öl
+#   type: Lager
+#   subtitle: Island Lager
+#   price: 35
 - name: Kona Fire Rock
   category: Öl
   type: Pale Ale
@@ -222,36 +217,36 @@
   type: Pale Ale
   subtitle: American Pale Ale
   price: 35
-- name: Omnipollo Zodiak
-  category: Öl
-  type: IPA
-  subtitle:
-  price: 35
+# - name: Omnipollo Zodiak
+#   category: Öl
+#   type: IPA
+#   subtitle:
+#   price: 35
 - name: Omnipollo Leon
   category: Öl
   type: Pale Ale
   subtitle: Belgian Pale Ale
   price: 35
-- name: Omnipollo Arzachel
-  category: Öl
-  type: Session IPA
-  subtitle: Session Imperial IPA 3.5%
-  price: 35
-- name: Omnipollo Bianca
-  category: Öl
-  type: Gose
-  subtitle: Raspberry Lassi Gose
-  price: 35
-- name: Omnipollo Ice Cream Pale Ale
-  category: Öl
-  type: Pale Ale
-  subtitle: American Pale Ale
-  price: 55
-- name: Omnipollo Lemon Meringue Ice Cream Pie
-  category: Öl
-  type: Sour Ale
-  subtitle: Fruit Beer
-  price: 50
+# - name: Omnipollo Arzachel
+#   category: Öl
+#   type: Session IPA
+#   subtitle: Session Imperial IPA 3.5%
+#   price: 35
+# - name: Omnipollo Bianca
+#   category: Öl
+#   type: Gose
+#   subtitle: Raspberry Lassi Gose
+#   price: 35
+# - name: Omnipollo Ice Cream Pale Ale
+#   category: Öl
+#   type: Pale Ale
+#   subtitle: American Pale Ale
+#   price: 55
+# - name: Omnipollo Lemon Meringue Ice Cream Pie
+#   category: Öl
+#   type: Sour Ale
+#   subtitle: Fruit Beer
+#   price: 50
 - name: Pimento Gingembre
   category: Alkoholfritt
   type: Läsk
@@ -267,11 +262,11 @@
 #   type: Lager
 #   subtitle: Samuel Adams
 #   price: 30
-- name: Somersby
-  category: Cider
-  type: Cider
-  subtitle: Päron
-  price: 20
+# - name: Somersby
+#   category: Cider
+#   type: Cider
+#   subtitle: Päron
+#   price: 25
 # - name: Somersby
 #   category: Cider
 #   type: Cider
@@ -285,7 +280,7 @@
 - name: Somersby
   category: Cider
   type: Cider
-  subtitle: Double Press, Äpple, Sparkling Rosé, Blackberry
+  subtitle: Päron, Äpple, Double Press, Sparkling Rosé, Blackberry
   price: 25
 - name: Xide
   category: Cider
@@ -316,27 +311,22 @@
   category: Öl
   type: Lager
   subtitle:
-  price: 25
-- name: Staropramen
-  category: Alkoholfritt
-  type: Alkoholfri Öl
-  subtitle:
-  price: 20
+  price: 30
+# - name: Staropramen
+#   category: Alkoholfritt
+#   type: Alkoholfri Öl
+#   subtitle:
+#   price: 20
 - name: Stella Artois
   category: Öl
   type: Lager
   subtitle:
-  price: 25
+  price: 30
 # - name: Stowford Press
 #   category: Cider
 #   type: Cider
 #   subtitle:
 #   price: 25
-- name: Stowford Press Low Alcohol
-  category: Alkoholfritt
-  type: Alkoholfri Cider
-  subtitle:
-  price: 20
 # - name: Taras Boulba
 #   category: Öl
 #   type: Ale
@@ -347,21 +337,11 @@
 #   type: Porter
 #   subtitle: Smoked Milk Porter with Cherries and Chipotle Chilli
 #   price: 35
-- name: All Bretts Are Off
-  category: Öl
-  type: Övrigt
-  subtitle: English Bitter
-  price: 35
 # - name: Ebulum
 #   category: Öl
 #   type: Ale
 #   subtitle: Elderberry Black Ale
 #   price: 30
-- name: To Øl Black Ball
-  category: Öl
-  type: Porter
-  subtitle:
-  price: 45
 - name: To Øl Cloud 9 Wit
   category: Öl
   type: Wit
@@ -372,11 +352,11 @@
 #   type: Lager
 #   subtitle: Glutenfri
 #   price: 30
-- name: To Øl Thirsty Frontier
-  category: Öl
-  type: Session IPA
-  subtitle:
-  price: 35
+# - name: To Øl Thirsty Frontier
+#   category: Öl
+#   type: Session IPA
+#   subtitle:
+#   price: 35
 - name: To Øl Fuck Art - The Heathens Are Coming
   category: Öl
   type: Ale
@@ -452,17 +432,17 @@
   type: Lager
   subtitle: Smaksatt med Tequila
   price: 30
-- name: Mikkeller Peter, Pale and Mary
-  category: Öl
-  type: Pale Ale
-  subtitle: Glutenfri American Pale ALe
-  price: 30
+# - name: Mikkeller Peter, Pale and Mary
+#   category: Öl
+#   type: Pale Ale
+#   subtitle: Glutenfri American Pale ALe
+#   price: 30
 - name: Mikkeller American Dream
   category: Öl
   type: Lager
   subtitle:
   price: 25
-- name: Estrella Daura Damm
+- name: Estrella Daura
   category: Öl
   type: Lager
   subtitle: Glutenfri
@@ -482,36 +462,36 @@
 #   type: IPA
 #   subtitle:
 #   price: 35
-- name: Melleruds Prima Julöl
-  category: Öl
-  type: Lager
-  subtitle:
-  price: 20
-- name: Perdition
-  category: Öl
-  type: Stout
-  subtitle: Sour Raspberry Stout
-  price: 45
+# - name: Melleruds Prima Julöl
+#   category: Öl
+#   type: Lager
+#   subtitle:
+#   price: 20
+# - name: Perdition
+#   category: Öl
+#   type: Stout
+#   subtitle: Sour Raspberry Stout
+#   price: 45
 # - name: Norrlunds Guld
 #   category: Öl
 #   type: Lager
 #   subtitle:
 #   price: 20
-- name: Queen of Hops 3,5%
-  category: Öl
-  type: Session IPA
-  subtitle:
-  price: 25
-- name: Leaky Bucket 3,5%
-  category: Öl
-  type: Lager
-  subtitle:
-  price: 25
-# - name: Omnipollo 3.5
+# - name: Queen of Hops 3,5%
 #   category: Öl
-#   type: Gose
-#   subtitle: Pineapple Gose
-#   price: 30
+#   type: Session IPA
+#   subtitle:
+#   price: 25
+# - name: Leaky Bucket 3,5%
+#   category: Öl
+#   type: Lager
+#   subtitle:
+#   price: 25
+- name: Omnipollo 3.5 Pineapple Gose
+  category: Öl
+  type: Sour Ale
+  subtitle:
+  price: 25
 # - name:  Hoppy Lovin’ Christmas
 #   category: Öl
 #   type: IPA
@@ -547,3 +527,73 @@
 #   type: Lager
 #   subtitle: Imperial Pale Lager
 #   price: 25
+- name: Omnipollo Original Rocky Road Ice Cream
+  category: Öl
+  type: Porter
+  subtitle: Imperial Porter
+  price: 70
+- name: Omnipollo Original Texas Pecan Ice Cream
+  category: Öl
+  type: Porter
+  subtitle: Imperial Porter
+  price: 70
+- name: Omnipollo Noa Pecan Mud Cake
+  category: Öl
+  type: Stout
+  subtitle: Imperial Stout
+  price: 65
+- name: Omnipollo Onda
+  category: Öl
+  type: Pale Ale
+  subtitle: Mosaic Pale Ale
+  price: 35
+- name: To Øl Garden of Eden
+  category: Öl
+  type: IPA
+  subtitle: Tropisk frukt
+  price: 40
+- name: To Øl Mr Pink
+  category: Öl
+  type: Berliner Weisse
+  subtitle: Lychee och guava
+  price: 45
+- name: Brekeriet Wild & Juicy
+  category: Öl
+  type: Sour Ale
+  subtitle:
+  price: 50
+- name: Modernist Brewery Stockholm Syndrome
+  category: Öl
+  type: Ale
+  subtitle: Red Ale
+  price: 30
+- name: Modernist Brewery \#001 Szechuan Pepper Wit
+  category: Öl
+  type: Wit
+  subtitle:
+  price: 30
+- name: Mikkeller Spontanframboos
+  category: Öl
+  type: Sour Ale
+  subtitle: Fruit - m. hallon
+  price: 105
+- name: To Øl Berliner Vice
+  category: Öl
+  type: Berliner Weisse
+  subtitle: m. apelsin
+  price: 30
+- name: Mikkeller Get Wit or Die Tryin'
+  category: Öl
+  type: Wit
+  subtitle: m. apelsinskal
+  price: 40
+- name: Omnipollo Lorelei
+  category: Öl
+  type: Porter
+  subtitle: m. kokos och sirap
+  price: 75
+- name: La Chouette
+  category: Cider
+  type: Cider
+  subtitle: Torr äppelcider
+  price: 40
