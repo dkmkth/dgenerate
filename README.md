@@ -5,7 +5,6 @@
 ```
 $ gem install bundler
 $ bundle
-
 ```
 
 ### Usage
