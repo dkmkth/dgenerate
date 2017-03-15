@@ -1,15 +1,14 @@
-dgenerate
-========
+# dgenerate
 **dgenerate** (dɪˈdʒɛn(ə)rət/) is a drink list generator
 
-Installation:
+### Installation
 ```
 $ gem install bundler
 $ bundle
 
 ```
 
-Usage:
+### Usage
 ```
 $ rake beer
 or
