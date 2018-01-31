@@ -9,17 +9,44 @@
     "order": 1
   },
   {
-    "name": "Chili' with Paul",
-    "subtitle": "Chilivodka (2cl), Ljus rom (2cl), Mangojuice, Lemonad",
+    "name": "French Martini",
+    "subtitle": "Vodka (3cl), Chambord (1cl), Ananasjuice (Cocktail)",
     "price": 35,
     "type": "Drinkar",
     "category": "Drinkar",
-    "glass": "Lowball",
+    "glass": "Cocktail",
+    "order": 1
+  },
+  {
+    "name": "Appletinimini",
+    "subtitle": "Vodka (3cl), Apple Sourz (1cl), Äppeljuice, Citron, Sockerlag (Cocktail)",
+    "price": 35,
+    "type": "Drinkar",
+    "category": "Drinkar",
+    "glass": "Cocktail",
+    "order": 1
+  },
+  {
+    "name": "Redbull Vodka",
+    "subtitle": "Vodka (4cl), Redbull",
+    "price": 45,
+    "type": "Drinkar",
+    "category": "Drinkar",
+    "glass": "Highball",
+    "order": 1
+  },
+  {
+    "name": "Spoopy Aperol",
+    "subtitle": "Vodka lemon (2cl), Aperol (2 cl), Apelsinjuice, Citron (Cocktail)",
+    "price": 50,
+    "type": "Drinkar",
+    "category": "Drinkar",
+    "glass": "Cocktail",
     "order": 1
   },
   {
     "name": "Gingerjosjos",
-    "subtitle": "Vodka (3cl), Chambord (2cl), Lime, Fentimans Ingefära",
+    "subtitle": "Vodka (3cl), Chambord (2cl), Lime, Fentimans Ginger Ale",
     "price": 60,
     "type": "Drinkar",
     "category": "Drinkar",
@@ -28,7 +55,7 @@
   },
   {
     "name": "Äppleflower",
-    "subtitle": "Vodka (3cl), St germain (2cl), Citron, Äpplejuice, Angostura",
+    "subtitle": "Vodka (3cl), Fläderlikör (2cl), Citron, Äpplejuice, Angostura",
     "price": 40,
     "type": "Drinkar",
     "category": "Drinkar",
@@ -36,12 +63,21 @@
     "order": 1
   },
   {
-    "name": "Den enarmade banditen",
-    "subtitle": "Gin (4cl), Passoa (2cl), St germain (2cl), Citron, Fentimans Fläder, Äggvita",
-    "price": 90,
+    "name": "Campari orange",
+    "subtitle": "Campari (4 cl), Apelsinjuice",
+    "price": 35,
     "type": "Drinkar",
     "category": "Drinkar",
-    "glass": "Lowball",
+    "glass": "Highball",
+    "order": 1
+  },
+  {
+    "name": "Fruity F*cker",
+    "subtitle": "Apple Sourz (2cl), Fläderlikör (2cl), Peachtree (2cl), Sprite",
+    "price": 50,
+    "type": "Drinkar",
+    "category": "Drinkar",
+    "glass": "Highball",
     "order": 1
   },
   {
@@ -72,45 +108,9 @@
     "order": 1
   },
   {
-    "name": "Hole-in-Juan",
-    "subtitle": "Tequila (3cl), Midori (2cl), Lime, Sprite",
-    "price": 40,
-    "type": "Drinkar",
-    "category": "Drinkar",
-    "glass": "Highball",
-    "order": 1
-  },
-  {
-    "name": "HoneyBooBoo",
-    "subtitle": "Tennessee Honey (5cl), Peachtree (1cl), Lime, Roses lime (1cl), Sockerlag, Druvjuice (röd), Äggvita",
-    "price": 90,
-    "type": "Drinkar",
-    "category": "Drinkar",
-    "glass": "Lowball",
-    "order": 1
-  },
-  {
     "name": "Hörrö, svara förfan",
     "subtitle": "Citronvodka (2cl), Ingefärsvodka (2cl), Lime, Sockerlag, Sprite",
     "price": 35,
-    "type": "Drinkar",
-    "category": "Drinkar",
-    "glass": "Highball",
-    "order": 1
-  },
-  {
-    "name": "Emiliano Sanchez Con Sarré",
-    "subtitle": "Vaniljvodka (4cl), St germain (2cl), Sockerlag (1cl), Citron, Sprite",
-    "price": 50,
-    "type": "Drinkar",
-    "category": "Drinkar",
-    "glass": "Cocktail",
-    "order": 1
-  },
-  {
-    "name": "Gammelsmurf",
-    "subtitle": "Gin (3cl), Bols Blå (2cl), Lemonad, Ramlösa, Grenadine",
-    "price": 40,
     "type": "Drinkar",
     "category": "Drinkar",
     "glass": "Highball",
@@ -123,24 +123,6 @@
     "type": "Drinkar",
     "category": "Drinkar",
     "glass": "Highball",
-    "order": 1
-  },
-  {
-    "name": "Hastler",
-    "subtitle": "Gin (4cl), St germain (2cl), Citron, Sockerlag, Äggvita",
-    "price": 50,
-    "type": "Drinkar",
-    "category": "Drinkar",
-    "glass": "Lowball",
-    "order": 1
-  },
-  {
-    "name": "The Bluez",
-    "subtitle": "Blåbärslikör (4cl), Rom (2cl), Lime, Mangojuice (2cl), Rött vin (3cl)",
-    "price": 90,
-    "type": "Drinkar",
-    "category": "Drinkar",
-    "glass": "Lowball",
     "order": 1
   },
   {
@@ -180,26 +162,8 @@
     "order": 3
   },
   {
-    "name": "Fire Blood",
-    "subtitle": "Dragon Blood (2cl), Fireball (2cl)",
-    "price": 35,
-    "type": "Shots",
-    "category": "Shots",
-    "glass": "Shot",
-    "order": 3
-  },
-  {
     "name": "Bubben",
     "subtitle": "Vaniljvodka (3cl), Cointreau (1cl), Sockerlag (1cl), Citron (1cl)",
-    "price": 35,
-    "type": "Shots",
-    "category": "Shots",
-    "glass": "Shot",
-    "order": 3
-  },
-  {
-    "name": "Mini Maragarita",
-    "subtitle": "Tequila (3cl), Cointreau (1cl), Lime (1cl), Saltad kant",
     "price": 35,
     "type": "Shots",
     "category": "Shots",
@@ -218,15 +182,6 @@
   {
     "name": "Micke",
     "subtitle": "Ananasjuice, Apelsinjuice, Grenadine",
-    "price": 20,
-    "type": "Alkoholfritt",
-    "category": "Alkoholfritt",
-    "glass": "Whatever",
-    "order": 2
-  },
-  {
-    "name": "Sex without Paul",
-    "subtitle": "Tranbärsjuice, Apelsinjuice, Grenadine",
     "price": 20,
     "type": "Alkoholfritt",
     "category": "Alkoholfritt",
